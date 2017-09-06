@@ -28,6 +28,7 @@ switch ($answer) {
 
         Set-Location $PSScriptRoot
         $backupPath = $PSScriptRoot + '\ImportGPOs'
+		New-Item -ItemType Directory -Force -Path $backupPath
         .\LGPO\LGPO.exe /g $backupPath
         
         Write-Output ""
