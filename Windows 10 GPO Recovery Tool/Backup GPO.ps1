@@ -23,11 +23,12 @@ switch ($answer) {
     # If the user selected to continue
     "yes" {
         Write-Output ""
-        Write-Output "Exprting your current GPOs..."
+        Write-Output "Exporting your current GPOs..."
         Write-Output ""
 
         Set-Location $PSScriptRoot
         $backupPath = $PSScriptRoot + '\BackupGPOs'
+		New-Item -ItemType Directory -Force -Path $backupPath
         .\LGPO\LGPO.exe /b $backupPath
         
         Write-Output ""
