@@ -20,7 +20,7 @@ UU:::::::::UU    N::::::N        N::::::NN::::::N        N::::::NE::::::::::::::
 UUUUUUUUU      NNNNNNNN         NNNNNNNNNNNNNNN         NNNNNNNEEEEEEEEEEEEEEEEEEEEEEAAAAAAA                   AAAAAAATTTTTTTTTTT      "
 Write-Host "Thank you for using the No Touch Enterprise App Terminator (NEAT). Please wait while we make your computer UNNEAT!"
 Start-Sleep -s 3
-#Get-AppxPackage -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Get-AppxPackage -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 
 Write-Host "Your computer is now UNNEAT!"
 Start-Sleep -s 10

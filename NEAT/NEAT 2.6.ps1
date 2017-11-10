@@ -28,6 +28,7 @@ $exclusionPackageArray = @(
 	"c5e2524a-ea46-4f67-841f-6a9465d9d515",
     "1527c705-839a-4832-9118-54d4Bd6a0c89",
     "E2A4F912-2574-4A75-9BB0-0D023378592B",
+    "F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE",
 	"ContactSupport",
 	"CortanaListenUIApp",
 	"DesktopLearning",
@@ -68,11 +69,16 @@ $exclusionPackageArray = @(
     "CloudExperienceHost",
     "ContentDeliveryManager",
     "immersivecontrolpanel",
+    "InputApp",
     "VCLibs",
     "EnvironmentsApp",
     "DesktopView",
     "SecureAssessmentBrowser",
-    "WindowPicker"
+    "WindowPicker",
+    "Microsoft.Advertising.Xaml",
+    "Microsoft.Windows.PeopleExperienceHost",
+    "Microsoft.Windows.PinningConfirmationDialog",
+    "Microsoft.ECApp"
 )
 
 forEach ($package in $packageArray) {
