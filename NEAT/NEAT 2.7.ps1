@@ -115,5 +115,5 @@ forEach ($package in $packageArray) {
 }
 
 Write-Host "Your computer is now NEAT!"
-Start-Sleep -s 100
+Start-Sleep -s 10
 exit
