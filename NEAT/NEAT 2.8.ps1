@@ -1,6 +1,6 @@
 # Application Authors: Mark Ebert, Marco Duran
 # Special thanks to Longwood CSD Technology Staff
-# Copyright (c) 2017 
+# Copyright (c) 2018
 if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) { Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs; exit }
 
 Write-Host "  NNNNNNNN        NNNNNNNNEEEEEEEEEEEEEEEEEEEEEE               AAA         TTTTTTTTTTTTTTTTTTTTTTT
@@ -21,7 +21,6 @@ Write-Host "  NNNNNNNN        NNNNNNNNEEEEEEEEEEEEEEEEEEEEEE               AAA  
   NNNNNNNN         NNNNNNNEEEEEEEEEEEEEEEEEEEEEEAAAAAAA                   AAAAAAATTTTTTTTTTT      "
 Write-Host "Thank you for using the No Touch Enterprise App Terminator (NEAT). Please wait while we make your computer NEAT!"
 Start-Sleep -s 3
-#Get-AppxPackage -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 
 $packageArray = Get-AppxPackage -AllUsers
 $exclusionPackageArray = @(
@@ -52,8 +51,6 @@ $exclusionPackageArray = @(
     "WindowsCalculator",
     "StickyNotes",
     "Xbox",
-    "ZuneVideo",
-    "ZuneMusic",
     "Photos",
     "Alarms",
     "AccountsControl",
@@ -82,7 +79,10 @@ $exclusionPackageArray = @(
     "Microsoft.Windows.PeopleExperienceHost",
     "Microsoft.Windows.PinningConfirmationDialog",
     "Microsoft.ECApp",
-	"Windows.CBSPreview"
+	"Microsoft.Windows.NarratorQuickStart",
+	"Microsoft.Windows.XGpuEjectDialog",
+	"Windows.CBSPreview",
+	"CanonicalGroupLimited.UbuntuonWindows"
 )
 
 forEach ($package in $packageArray) {
