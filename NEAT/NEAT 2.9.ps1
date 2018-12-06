@@ -81,6 +81,7 @@ $exclusionPackageArray = @(
     "Microsoft.ECApp",
 	"Microsoft.Windows.NarratorQuickStart",
 	"Microsoft.Windows.XGpuEjectDialog",
+	"Microsoft.UI.Xaml.2.0",
 	"Microsoft.YourPhone",
 	"Windows.CBSPreview",
 	"CanonicalGroupLimited.UbuntuonWindows"
