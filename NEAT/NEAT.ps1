@@ -77,7 +77,6 @@ $exclusionPackageArray = @(
 	"Microsoft.Windows.ShellExperienceHost",
 	"Microsoft.Windows.StartMenuExperienceHost",
 	"Microsoft.Windows.XGpuEjectDialog",
-	"Microsoft.WindowsAlarms",
 	"Microsoft.WindowsCalculator",
 	"Microsoft.WindowsCamera",
 	"Microsoft.WindowsSoundRecorder",
