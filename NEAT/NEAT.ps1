@@ -60,6 +60,7 @@ $exclusionPackageArray = @(
 	"Microsoft.Win32WebViewHost",
 	"Microsoft.Windows.Apprep.ChxApp",
 	"Microsoft.Windows.AssignedAccessLockApp",
+	"Microsoft.Windows.CallingShellApp",
 	"Microsoft.Windows.CapturePicker",
 	"Microsoft.Windows.CloudExperienceHost",
 	"Microsoft.Windows.ContentDeliveryManager",
@@ -123,5 +124,5 @@ forEach ($package in $packageArray) {
 }
 
 Write-Host "Your computer is now NEAT!"
-Start-Sleep -s 100
+Start-Sleep -s 10
 exit
