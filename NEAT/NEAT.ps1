@@ -26,6 +26,7 @@ Start-Sleep -s 3
 $packageArray = Get-AppxPackage -AllUsers
 $exclusionPackageArray = @(
 	"1527c705-839a-4832-9118-54d4Bd6a0c89",
+	"AppUp.IntelGraphicsControlPanel",
 	"c5e2524a-ea46-4f67-841f-6a9465d9d515",
 	"C9B3B423.RingDoorbell",
 	"CanonicalGroupLimited.UbuntuonWindows",
@@ -88,6 +89,8 @@ $exclusionPackageArray = @(
 	"Microsoft.XboxGamingOverlay",
 	"Microsoft.XboxIdentityProvider",
 	"Microsoft.XboxSpeechToTextOverlay",
+	"NVIDIACorp.NVIDIAControlPanel",
+	"Ookla.SpeedtestbyOokla",
 	"Windows.CBSPreview",
 	"windows.immersivecontrolpanel",
 	"Windows.PrintDialog"
