@@ -93,7 +93,8 @@ $exclusionPackageArray = @(
 	"Ookla.SpeedtestbyOokla",
 	"Windows.CBSPreview",
 	"windows.immersivecontrolpanel",
-	"Windows.PrintDialog"
+	"Windows.PrintDialog",
+	"AdvancedMicroDevicesInc-2.59462344778C5"
 )
 
 forEach ($package in $packageArray) {
