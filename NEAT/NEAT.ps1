@@ -51,8 +51,7 @@ $exclusionPackageArray = @(
 	"Microsoft.ScreenSketch",
 	"Microsoft.Services.Store.Engagement",
 	"Microsoft.StorePurchaseApp",
-	"Microsoft.UI.Xaml.2.0",
-	"Microsoft.UI.Xaml.2.1",
+	"Microsoft.UI.Xaml",
 	"Microsoft.VCLibs",
 	"Microsoft.VP9VideoExtensions",
 	"Microsoft.Wallet",
@@ -94,7 +93,10 @@ $exclusionPackageArray = @(
 	"Windows.CBSPreview",
 	"windows.immersivecontrolpanel",
 	"Windows.PrintDialog",
-	"AdvancedMicroDevicesInc-2.59462344778C5"
+	"AdvancedMicroDevicesInc-2.59462344778C5",
+	"AppUp.IntelGraphicsExperience",
+	"WavesAudio.WavesMaxxAudioProforDell",
+	"Microsoft.Whiteboard"
 )
 
 forEach ($package in $packageArray) {
