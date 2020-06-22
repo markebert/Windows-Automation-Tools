@@ -78,7 +78,6 @@ $exclusionPackageArray = @(
 	"Microsoft.Windows.StartMenuExperienceHost",
 	"Microsoft.Windows.XGpuEjectDialog",
 	"Microsoft.WindowsCalculator",
-	"Microsoft.WindowsCamera",
 	"Microsoft.WindowsSoundRecorder",
 	"Microsoft.WindowsStore",
 	"Microsoft.Xbox.TCUI",
@@ -96,7 +95,11 @@ $exclusionPackageArray = @(
 	"AdvancedMicroDevicesInc-2.59462344778C5",
 	"AppUp.IntelGraphicsExperience",
 	"WavesAudio.WavesMaxxAudioProforDell",
-	"Microsoft.Whiteboard"
+	"Microsoft.Whiteboard",
+	"MicrosoftWindows.Client.CBS",
+	"MicrosoftWindows.UndockedDevKit",
+	"NcsiUwpApp",
+	"Microsoft.Windows.Search"
 )
 
 forEach ($package in $packageArray) {
