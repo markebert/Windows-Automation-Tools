@@ -99,7 +99,8 @@ $exclusionPackageArray = @(
 	"MicrosoftWindows.Client.CBS",
 	"MicrosoftWindows.UndockedDevKit",
 	"NcsiUwpApp",
-	"Microsoft.Windows.Search"
+	"Microsoft.Windows.Search",
+	"DellInc.DellPowerManager"
 )
 
 forEach ($package in $packageArray) {
