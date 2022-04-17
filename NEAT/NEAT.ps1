@@ -29,6 +29,7 @@ $exclusionPackageArray = @(
 "AdvancedMicroDevicesInc-2.59462344778C5",
 "AppUp.IntelGraphicsControlPanel",
 "AppUp.IntelGraphicsExperience",
+"AppUp.ThunderboltControlCenter",
 "C9B3B423.RingDoorbell",
 "CanonicalGroupLimited.UbuntuonWindows",
 "DellInc.DellPowerManager",
