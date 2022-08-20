@@ -106,7 +106,8 @@ $exclusionPackageArray = @(
 "Windows.CBSPreview",
 "Windows.PrintDialog",
 "c5e2524a-ea46-4f67-841f-6a9465d9d515",
-"windows.immersivecontrolpanel"
+"windows.immersivecontrolpanel",
+"TheDebianProject.DebianGNULinux"
 )
 
 forEach ($package in $packageArray) {
