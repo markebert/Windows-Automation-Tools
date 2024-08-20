@@ -111,7 +111,9 @@ $exclusionPackageArray = @(
     "WavesAudio.WavesMaxxAudioProforDell",
     "Windows.CBSPreview",
     "windows.immersivecontrolpanel",
-    "Windows.PrintDialog"
+    "Windows.PrintDialog",
+	"Microsoft.Xbox",
+	"MicrosoftWindows.LKG.DesktopSpotlight"
 )
 
 forEach ($package in $packageArray) {
