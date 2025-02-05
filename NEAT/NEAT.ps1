@@ -26,6 +26,7 @@ Start-Sleep -s 3
 $packageArray = Get-AppxPackage -AllUsers
 $exclusionPackageArray = @(
     "1527c705-839a-4832-9118-54d4Bd6a0c89",
+    "8bitSolutionsLLC.bitwardendesktop",
     "AdvancedMicroDevicesInc-2.59462344778C5",
     "AppUp.IntelGraphicsControlPanel",
     "AppUp.IntelGraphicsExperience",
@@ -112,8 +113,8 @@ $exclusionPackageArray = @(
     "Windows.CBSPreview",
     "windows.immersivecontrolpanel",
     "Windows.PrintDialog",
-	"Microsoft.Xbox",
-	"MicrosoftWindows.LKG.DesktopSpotlight"
+    "Microsoft.Xbox",
+    "MicrosoftWindows.LKG.DesktopSpotlight"
 )
 
 forEach ($package in $packageArray) {
